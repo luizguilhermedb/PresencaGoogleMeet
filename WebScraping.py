@@ -32,10 +32,7 @@ def ignorar_caracteres_cercados(texto, char_abertura, char_fechamento):
 
 i = 0
 
-email = "luiz.barcellos@fcagroup.com"
-
-#arrumar
-chromedriver = "C:/Users/User/Documents/GitHub/WebScrapping/Extra-o-de-Dados-Meteorol-gicos-com-Web-Sraping-usando-Python-e-Selenium-master/chromedriver"
+chromedriver = "chromedriver.exe"
 driver = webdriver.Chrome(chromedriver)
 #chama login google
 driver.get("https://accounts.google.com/signin/v2/identifier?hl=pt-BR&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&flowName=GlifWebSignIn&flowEntry=ServiceLogin")
